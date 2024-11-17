@@ -199,6 +199,7 @@ function Home() {
 
   const logout = async (e) => {
     e.preventDefault()
+    setAuthorized(null)
 
     const token = localStorage.getItem("token")
     let url = `${baseUrl}/api/logout`;
