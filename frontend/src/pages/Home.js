@@ -230,7 +230,7 @@ function Home() {
       <header className="flex md:items-center items-start md:justify-evenly justify-between py-4 md:px-0 px-5 border-b-2 border-gray-300 shadow-lg relative z-10">
         <div className="flex gap-3 items-center ">
           <HiBars3 className="text-2xl md:hidden block" onClick={()=>setMenuToggle(!menuToggle)} />
-          <h2 className="text-3xl font-bold">Logo</h2>
+          <h2 className="text-3xl font-bold">InsightX</h2>
         </div>
         <div className={`md:flex gap-2 flex-col items-center md:flex-row  mt-14 md:mt-0 ${menuToggle ? "flex" : "hidden"}`}>
           <a href="#" className="hover:bg-black hover:text-white py-2 px-5 rounded-full transition-colors duration-200">Home</a>

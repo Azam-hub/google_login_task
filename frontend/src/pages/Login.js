@@ -83,7 +83,7 @@ function Login() {
       <div className="h-[100%] flex justify-center items-center">
         {/* <h1>login</h1> */}
         <div className="bg-white lg:w-[30vw] md:w-[70vw] sm:w-[90vw] w-[95%] border rounded-md p-5">
-          <h3 className="text-xl font-medium">Login</h3>
+          <h3 className="text-xl font-medium">Login to InsightX</h3>
 
 
           <form className="mt-5" onSubmit={formSubmit}>
