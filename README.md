@@ -7,9 +7,9 @@
 - Run **"php artisan migrate"** (Make sure that your database server is running)
 - Run **"cd ../frontend"**
 - Run **"npm install"**
-- Copy and Paste **".env"** variables
+- Copy and Paste **".env"** variables to "backend/.env"
 - Now open terminal in both folders ("frontend" and "backend")
-- Run **"php artisan server"** in **backend** folder terminal (Make sure that backend (laravel) is running on http://localhost:8000 otherwise change **REACT_APP_BACKEND_URL** in "frontend/.env")
+- Run **"php artisan serve"** in **backend** folder terminal (Make sure that backend (laravel) is running on http://localhost:8000 otherwise change **REACT_APP_BACKEND_URL** in "frontend/.env")
 - Run **"npm start"** in **frontend** folder terminal (Make sure that frontend (react) is running on http://localhost:3000 because redirect is set to this url)
 
 Enjoy the website.
